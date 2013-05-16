@@ -5,6 +5,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import bgm.block.AddedBlocks;
+import bgm.lib.Reference;
 
 /**
  * Bubblegum Mod

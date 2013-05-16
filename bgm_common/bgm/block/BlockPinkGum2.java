@@ -1,5 +1,6 @@
 package bgm.block;
 
+import bgm.BubblegumMod;
 import bgm.lib.Reference;
 import bgm.lib.Strings;
 import net.minecraft.block.Block;
@@ -21,7 +22,7 @@ public class BlockPinkGum2 extends Block {
         
         super(id, Material.sponge);
         this.setUnlocalizedName(Strings.PG2);
-        this.setCreativeTab(Reference.BGMTAB);
+        this.setCreativeTab(BubblegumMod.BGMTAB);
         this.setHardness(0.6F);
         this.setStepSound(soundSandFootstep);
     }

@@ -19,5 +19,5 @@ public class Reference {
     public static final String MOD_ID = "Wehavecookies56.bgm";
     public static final String MOD_VER = "0.0.1 Alpha";
     
-    public static CreativeTabs BGMTAB = new BGMTAB(CreativeTabs.getNextID(), "BGMTAB");
+  
 }
