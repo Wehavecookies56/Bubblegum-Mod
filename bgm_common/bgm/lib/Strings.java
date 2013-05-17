@@ -26,4 +26,19 @@ public class Strings {
     public static final String YG2 = "Ornate Yellow Bubblegum";
     public static final String YG3 = "Chiseled Yellow Bubblegum";
     public static final String YG4 = "Yellow Bubblegum Bricks";
+    
+    public static final String UNP1 = "PG1";
+    public static final String UNP2 = "PG2";
+    public static final String UNP3 = "PG3";
+    public static final String UNP4 = "PG4";
+    
+    public static final String UNB1 = "BG1";
+    public static final String UNB2 = "BG2";
+    public static final String UNB3 = "BG3";
+    public static final String UNB4 = "BG4";
+    
+    public static final String UNY1 = "YG1";
+    public static final String UNY2 = "YG2";
+    public static final String UNY3 = "YG3";
+    public static final String UNY4 = "YG4";
 }

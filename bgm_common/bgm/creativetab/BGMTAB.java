@@ -22,6 +22,7 @@ public class BGMTAB extends CreativeTabs {
     public BGMTAB(int par1, String par2Str) {
         super(par1, par2Str);
         
+        
     }
     @SideOnly(Side.CLIENT)
     public int getTabIconItemIndex()

@@ -1,7 +1,12 @@
 package bgm.block;
 
+import bgm.lib.Reference;
+import bgm.lib.Strings;
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.LanguageRegistry;
 import bgm.lib.IDs;
 import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 
 /**
  * Bubblegum Mod
@@ -32,8 +37,12 @@ public class AddedBlocks {
     
     public static void init() {
         
-        PinkGum1 = new BlockPinkGum1(IDs.PINK_GUM1);
+        PinkGum1 = new BlockPinkGum1(IDs.PINK_GUM1, Material.sponge);
         PinkGum2 = new BlockPinkGum2(IDs.PINK_GUM2);
+        
+        GameRegistry.registerBlock(PinkGum1, Reference.MOD_ID + PinkGum1.getUnlocalizedName2());
+        
+        LanguageRegistry.addName(PinkGum1, Strings.PG1);
         
     }
 }
