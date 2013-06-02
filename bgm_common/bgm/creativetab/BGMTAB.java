@@ -1,11 +1,9 @@
 package bgm.creativetab;
 
+import bgm.block.AddedBlocks;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
-import bgm.block.AddedBlocks;
-import bgm.lib.Reference;
 
 /**
  * Bubblegum Mod
@@ -27,8 +25,7 @@ public class BGMTAB extends CreativeTabs {
     @SideOnly(Side.CLIENT)
     public int getTabIconItemIndex()
     {
-        //TODO: Add icon of bubblegum instead of anvil
-        return Block.anvil.blockID;
+        return AddedBlocks.PinkGum1.blockID;
     }
     public String GetTranslatedTabNameLabel(){
         return "Bubblegum Mod";

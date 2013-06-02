@@ -11,6 +11,9 @@ package bgm.proxies;
  */
 
 public class CommonProxy {
+    public static String BLOCKS_PNG = "/resources/mods/bgm/textures/blocks/Block_Textures.png";
+    public static String ITEMS_PNG = "/resources/mods/bgm/blocks/Item_Textures.png";
+    
     public void registerRenders() {
         
     }
