@@ -202,7 +202,7 @@ if (flag && flag1)
 }
 else
 {
-         if ((par1World.getBlockId(par2 + b0, par3, par4 + b1) != AddedBlocks.BlueGum2.blockID || par1World.getBlockId(par2 - b0, par3, par4 - b1) != this.blockID) && (par1World.getBlockId(par2 - b0, par3, par4 - b1) != Block.blockDiamond.blockID || par1World.getBlockId(par2 + b0, par3, par4 + b1) != this.blockID))
+         if ((par1World.getBlockId(par2 + b0, par3, par4 + b1) != AddedBlocks.BlueGum2.blockID || par1World.getBlockId(par2 - b0, par3, par4 - b1) != this.blockID) && (par1World.getBlockId(par2 - b0, par3, par4 - b1) != AddedBlocks.BlueGum2.blockID || par1World.getBlockId(par2 + b0, par3, par4 + b1) != this.blockID))
          {
          par1World.setBlockToAir(par2, par3, par4);
          }

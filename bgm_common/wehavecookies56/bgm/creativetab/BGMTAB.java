@@ -1,6 +1,7 @@
 package wehavecookies56.bgm.creativetab;
 
 import wehavecookies56.bgm.block.AddedBlocks;
+import wehavecookies56.bgm.lib.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.creativetab.CreativeTabs;
@@ -28,7 +29,7 @@ public class BGMTAB extends CreativeTabs {
         return AddedBlocks.PinkGum1.blockID;
     }
     public String GetTranslatedTabNameLabel(){
-        return "Bubblegum Mod";
+        return Reference.MOD_NAME;
     }
 
 }
