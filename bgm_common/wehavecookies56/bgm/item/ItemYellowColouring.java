@@ -11,24 +11,24 @@ import wehavecookies56.bgm.lib.Strings;
 /**
  * Bubblegum Mod
  * 
- * ItemMagentaColouring
+ * ItemYellowColouring
  * 
  * @author Wehavecookies56
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
  * 
  */
 
-public class ItemMagentaColouring extends ItemBGM {
+public class ItemYellowColouring extends ItemBGM {
 
     private final String setInfoln1;
     private final String setColour1;
     private final String setInfoln2;
     private final String setColour2;
-    public ItemMagentaColouring(int id) {
+    public ItemYellowColouring(int id) {
         super(id);
         this.setMaxDamage(16);
-        this.setUnlocalizedName(Strings.MGC);
-        this.setInfoln1 = Strings.MGC;
+        this.setUnlocalizedName(Strings.YGC);
+        this.setInfoln1 = Strings.YGC;
         this.setColour1 = "\u00A7F";
         this.setInfoln2 = "\u00A7O ~16 Uses when full";
         this.setColour2 = "\u00A77";

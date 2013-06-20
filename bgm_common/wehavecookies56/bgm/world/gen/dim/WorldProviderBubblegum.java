@@ -25,7 +25,7 @@ public class WorldProviderBubblegum extends WorldProvider
 private float[] colorsSunriseSunset = new float[4];
 public void registerWorldChunkManager()
 {
-this.worldChunkMgr = new WorldChunkManagerHell(AddedBiomes.PinkBubblegumPlainsBiome, this.dimensionId, this.dimensionId);
+this.worldChunkMgr = new WorldChunkManagerHell(AddedBiomes.PinkBubblegumPlainsBiome, dimensionId, dimensionId);
 this.dimensionId = AddedDimensions.DIM_ID;
 this.hasNoSky = false;
 }

@@ -27,6 +27,11 @@ public class IDs {
     public static final int YG3_ID_DEFAULT= 3419;
     public static final int YG4_ID_DEFAULT= 3410;
     
+    public static final int RG1_ID_DEFAULT= 3413;
+    public static final int RG2_ID_DEFAULT= 183;
+    public static final int RG3_ID_DEFAULT= 184;
+    public static final int RG4_ID_DEFAULT= 3414;
+    
     public static final int BG_ID_DEFAULT= 182;
     
     public static final int BGMPORTAL_DEFAULT_ID= 3411;
@@ -47,10 +52,19 @@ public class IDs {
     public static int YELLOW_GUM3;
     public static int YELLOW_GUM4;
     
+    public static int RED_GUM1;
+    public static int RED_GUM2;
+    public static int RED_GUM3;
+    public static int RED_GUM4;
+    
     public static int BLACK_GUM1;
     
     public static int BGMPORTAL;
     public static int BGMFIRE;
+    
+    public static int RAWGUM;
+    
+    public static final int RAWGUM_DEFAULT= 3414;
     
     //ITEMS
     public static final int PORTAL_PLACER_DEFAULT_ID= 15000;
@@ -60,12 +74,23 @@ public class IDs {
     public static int BUBBLE_IGNITOR;
     
     public static int MGC;
+    public static int BGC;
+    public static int YGC;
     
+    public static final int YGC_DEFAULT= 15004;
     public static final int MGC_DEFAULT= 15002;
+    public static final int BGC_DEFAULT= 15003;
     
+    public static final int RAWGUMCHUNK_DEFAULT= 15004;
+    
+    public static int RAWGUMCHUNK;
     //BIOMES
     public static final int PGPLAINS_DEFAULT_ID= 25;
     
     public static int PGPLAINS;
+    
+    public static final int RGFOREST_DEFAULT_ID= 26;
+    
+    public static int RGFOREST;
     
 }

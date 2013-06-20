@@ -22,7 +22,7 @@ public class ColouringCraftingHandler implements ICraftingHandler {
     @Override
     public void onCrafting(EntityPlayer player, ItemStack item, IInventory craftMatrix) {
             for (int i = 0; i < craftMatrix.getSizeInventory(); i++)
-                                                                                                                                    // the slots
+                                                                                                                                  
             {
                     if (craftMatrix.getStackInSlot(i) != null)
                     {
@@ -39,6 +39,44 @@ public class ColouringCraftingHandler implements ICraftingHandler {
                             }
                     }
             }
+            for (int i = 0; i < craftMatrix.getSizeInventory(); i++)
+                
+            {
+                    if (craftMatrix.getStackInSlot(i) != null)
+                    {
+                            ItemStack j = craftMatrix.getStackInSlot(i);
+                            if (j.getItem() != null && j.getItem() == AddedItems.BlueColouring) 
+                            {
+                                    ItemStack BGC = new ItemStack(AddedItems.BlueColouring, 2, (j.getItemDamage() + 1)); 
+                                    if (BGC.getItemDamage() >= BGC.getMaxDamage()) { 
+                                            BGC.stackSize--; 
+                                    }
+                                    craftMatrix.setInventorySlotContents(i, BGC);
+                                    
+                                   
+                            }
+                    }
+            }
+            
+            for (int i = 0; i < craftMatrix.getSizeInventory(); i++)
+                
+            {
+                    if (craftMatrix.getStackInSlot(i) != null)
+                    {
+                            ItemStack j = craftMatrix.getStackInSlot(i);
+                            if (j.getItem() != null && j.getItem() == AddedItems.YellowColouring) 
+                            {
+                                    ItemStack YGC = new ItemStack(AddedItems.YellowColouring, 2, (j.getItemDamage() + 1)); 
+                                    if (YGC.getItemDamage() >= YGC.getMaxDamage()) { 
+                                            YGC.stackSize--; 
+                                    }
+                                    craftMatrix.setInventorySlotContents(i, YGC);
+                                    
+                                   
+                            }
+                    }
+            }
+            
     }
 
     @Override
